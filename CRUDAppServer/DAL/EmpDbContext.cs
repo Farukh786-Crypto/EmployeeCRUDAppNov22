@@ -14,5 +14,7 @@ namespace CRUDAppServer.DAL
 
         }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<CountryMst> CountryMst { get; set; }
+        public DbSet<StateMst> StateMst { get; set; }
     }
 }
